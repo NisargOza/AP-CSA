@@ -10,7 +10,7 @@ public class TreeOfStars
         int distanceFromConsole = 0;
 
         for(int i = 1; i<=9; i++) {
-            for(int x = 1; x<distanceFromConsole; x++) {
+            for(int x = 1; x<=distanceFromConsole; x++) {
                 System.out.print(" ");
             }
             for(int inner = 9; inner >= i; inner--) {
