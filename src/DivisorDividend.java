@@ -5,17 +5,15 @@ public class DivisorDividend
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the dividend: ");
-        int dividend = scanner.nextInt();
+        System.out.println("Enter your first number: ");
+        int number1 = scanner.nextInt();
 
-        System.out.println("Enter the divisor: ");
-        int divisor = scanner.nextInt();
+        System.out.println("Enter your second number: ");
+        int number2 = scanner.nextInt();
 
-        if(divisor != 0 && dividend % divisor == 0) {
-            System.out.println(dividend + " " + "is divisible by " + divisor + "!");
-        }
-        else {
-            System.out.println(dividend + " " + "is not divisible by " + divisor + "!");
-        }
+        double sum = (double)(number1 + number2);
+
+        System.out.println(sum);
+
     }
 }
